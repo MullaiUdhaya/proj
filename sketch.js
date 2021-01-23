@@ -7,7 +7,7 @@ function setup(){
 }
 
 function draw(){
-    background("white");
+    background("black");
     if(keyDown(LEFT_ARROW)){
         changePosition(-1,0);
     }
